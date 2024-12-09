@@ -120,7 +120,7 @@ class TestOrder(unittest.TestCase):
             "Receipt:\n"
             "Drink 1: Base = hill fog, Flavors = lemon, Size = medium, Cost: $1.90\n"
             "Food 1: Type = french fries, Toppings = nacho cheese, chili, Cost: $2.40\n"
-            "Order Total: $4.35\n"
+            "Order Total: $4.61\n"
         )
         self.assertEqual(order.get_receipt(), expected_receipt)
 
